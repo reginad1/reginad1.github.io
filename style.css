@@ -62,9 +62,13 @@ column-span: all;
 margin:20px 10px 20px 10px;
 }
 
-.footer {
+footer {
   font-size: 0.75em;
+  font-weight: bold;
+  background-image: url("Images/flowerfield.jpg");
+  background-repeat: repeat-x;
 }
+
 
 @media screen and (max-width: 855px) {
   #columns {
