@@ -1,3 +1,90 @@
 body {
   background-color: lightblue;
+  font-family: Arial;
 }
+
+h1 {
+  font-family: Georgia;
+  font-size:3em;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+nav {
+  width: 960px;
+  padding: 0px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+.top-navigation li{
+  display:inline;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+#images {
+  border-style: double;
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.image-size {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#columns {
+column-count: 3;
+column-gap: 15px;
+column-span: all;
+margin:20px 10px 20px 10px;
+}
+
+.footer {
+  font-size: 0.75em;
+}
+
+@media screen and (max-width: 855px) {
+  #columns {
+    display:inline;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    width: 100%
+    }
+}
+
+@media screen and (max-width: 850px) {
+  #images{
+    width: 100%
+  }
+  .image-size{
+    width: 100%
+  }
+}
+
